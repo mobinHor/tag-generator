@@ -11,7 +11,7 @@ The common environment update process is like this:
 In this article, I want to focus on the second stage of this process, all the stages from the time we create tag until the release happens are automated with the help of CI/CD, but the stage of creating a new tag is done completely manually by the developers themselves, which It is relatively simple but full of errors; So I found and implemented a solution to automate this step and I want to share it with you.
 
 
-## Definiton
+## Definition
 
 In order to expect that the new tag version works properly and updates our environment, we divided it into two parts:
 - The first part: showing the version of the tag (SemVer)
